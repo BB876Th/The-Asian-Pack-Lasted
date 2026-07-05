@@ -1,0 +1,872 @@
+[
+  {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 106,
+    "uniques": ["Found City"]
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 70,
+    "uniques": ["Can build improvements"]
+  },
+  {
+    "name": "Tribal Warrior",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 8,
+    "cost": 40
+  },
+  {
+    "name": "Archer",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 5,
+    "rangedStrength": 7,
+    "range": 2,
+    "cost": 40,
+    "requiredTech": "Archery"
+  },
+    {
+    "name": "Horseman",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 12,
+    "cost": 75,
+    "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
+    "uniques": [
+      "Can move after attacking",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Slave Laborer",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 35,
+    "requiredTech": "Slavery",
+    "uniques": [
+      "Can build improvements",
+      "Work at% speed"
+    ]
+  },
+    {
+    "name": "Swordsman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 14,
+    "cost": 75,
+    "requiredResource": "Iron",
+    "requiredTech": "Iron Working"
+  },
+  {
+    "name": "Sailing Ship",
+    "unitType": "Ranged Water",
+    "movement": 4,
+    "strength": 10,
+    "rangedStrength": 12,
+    "range": 2,
+    "cost": 90,
+    "requiredTech": "Sailing Ships"
+  },
+  {
+    "name": "Longswordsman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 21,
+    "cost": 120,
+    "requiredResource": "Iron",
+    "requiredTech": "Steel Swords"
+  },
+  {
+    "name": "Hoplite",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 16,
+    "cost": 75,
+    "requiredTech": "Marketplace",
+    "uniques": [
+      "[+50%] strength vs [Mounted] units"
+    ]
+  },
+  {
+    "name": "Pikeman",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 20,
+    "cost": 120,
+    "requiredTech": "Pike Lore",
+    "uniques": [
+      "[+100%] strength vs [Mounted] units"
+    ]
+  },
+  {
+    "name": "Legionary",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 26,
+    "cost": 150,
+    "requiredTech": "Tweezers",
+    "uniques": [
+      "Can build [Road] improvements",
+      "Can build [Fort] improvements"
+    ]
+  },
+  {
+    "name": "Crossbowman",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 13,
+    "rangedStrength": 18,
+    "range": 2,
+    "cost": 160,
+    "requiredTech": "Crossbows"
+  },
+  {
+    "name": "Crusader",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 32,
+    "cost": 200,
+    "requiredTech": "Christianity",
+    "uniques": [
+      "[+20%] strength when attacking cities of other Religions",
+      "Earns [Faith] from killed units"
+    ]
+  },
+  {
+    "name": "Musketeer",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 38,
+    "cost": 240,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "Gunpowder"
+  },
+  {
+    "name": "Paladin",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 42,
+    "cost": 260,
+    "requiredTech": "Jerusalem Question",
+    "uniques": [
+      "Heals [20] HP per turn after killing an enemy unit",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Templar Knight",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 48,
+    "cost": 300,
+    "requiredTech": "Holy Land",
+    "uniques": [
+      "[+33%] strength when defending",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Trebuchet",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 12,
+    "rangedStrength": 24,
+    "range": 2,
+    "cost": 250,
+    "requiredTech": "Artillery",
+    "uniques": [
+      "[+200%] strength when attacking [City] tiles",
+      "Must set up to range attack"
+    ]
+  },
+  {
+    "name": "Treasure Junk",
+    "unitType": "Ranged Water",
+    "movement": 4,
+    "strength": 25,
+    "rangedStrength": 30,
+    "range": 2,
+    "cost": 280,
+    "requiredTech": "Treasure Junks",
+    "uniques": [
+      "Can carry [1] [Civilian] units",
+      "May withdraw when faced with melee attack"
+    ]
+  },
+  {
+    "name": "Matchlock Musketeer",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 54,
+    "cost": 320,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "Matchlock Warfare",
+    "uniques": [
+      "[+25%] strength when defending in [Open terrain] tiles"
+    ]
+  },
+  {
+    "name": "Knight",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 65,
+    "cost": 400,
+    "requiredResource": "Horses",
+    "requiredTech": "Feudalism",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonuses"
+    ]
+  },
+  {
+    "name": "Hand Cannoneer",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 60,
+    "cost": 420,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "Hand Cannons",
+    "uniques": [
+      "[-25%] strength when defending"
+    ]
+  },
+  {
+    "name": "Line Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 75,
+    "cost": 500,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "The Renaissance"
+  },
+    {
+    "name": "Grenadier",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 80,
+    "cost": 550,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "Hand Grenades",
+    "uniques": [
+      "[+33%] strength when attacking [City] tiles"
+    ]
+  },
+    {
+    "name": "Redcoat",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 90,
+    "cost": 620,
+    "requiredResource": "Saltpeter",
+    "requiredTech": "Redcoat Regiment",
+    "uniques": [
+      "[+25%] strength when attacking on [Foreign land] tiles"
+    ]
+  },
+  {
+    "name": "Bombard",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 20,
+    "rangedStrength": 45,
+    "range": 3,
+    "cost": 680,
+    "requiredResource": "Iron",
+    "requiredTech": "Explosive Shells",
+    "uniques": [
+      "[+200%] strength when attacking [City] tiles",
+      "Must set up to range attack",
+      "No defensive terrain bonuses"
+    ]
+  },
+  {
+    "name": "Duckfoot Gunner",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 125,
+    "cost": 800,
+    "requiredResource": "Iron",
+    "requiredTech": "Duckfoot Pistol Warfare",
+    "uniques": [
+      "[+25%] strength when fighting in [Friendly land] tiles",
+      "[-25%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Rifleman",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 140,
+    "cost": 900,
+    "requiredTech": "Steam Locomotive"
+  },
+  {
+    "name": "Cavalry",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 165,
+    "cost": 1100,
+    "requiredResource": "Horses",
+    "requiredTech": "Colt Revolvers",
+    "uniques": [
+      "Can move after attacking",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Gatling Gun",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 225,
+    "rangedStrength": 225,
+    "range": 1,
+    "cost": 1400,
+    "requiredResource": "Iron",
+    "requiredTech": "Metallic Cartridges",
+    "uniques": [
+      "[+50%] strength when defending",
+      "May attack 1 additional time per turn"
+    ]
+  },
+  {
+    "name": "Machine Gun",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 350,
+    "rangedStrength": 350,
+    "range": 1,
+    "cost": 1800,
+    "requiredResource": "Iron",
+    "requiredTech": "Gas-Operated Firearms",
+    "uniques": [
+      "[+50%] strength when defending",
+      "May attack 1 additional time per turn"
+    ]
+  },
+  {
+    "name": "Landship",
+    "unitType": "Armored",
+    "movement": 4,
+    "strength": 400,
+    "cost": 2100,
+    "requiredResource": "Oil",
+    "requiredTech": "Internal Combustion Engine",
+    "uniques": [
+      "Can move after attacking",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Armored Car",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 380,
+    "cost": 1900,
+    "requiredResource": "Oil",
+    "requiredTech": "Armored Cars",
+    "uniques": [
+      "Can move after attacking",
+      "Can see through [Forest] and [Jungle] tiles",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Great War Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 220,
+    "cost": 1500,
+    "requiredTech": "Bosnian Crisis",
+    "uniques": [
+      "[+25%] strength when defending in [Rough terrain] tiles"
+    ]
+  },
+  {
+    "name": "Biplane",
+    "unitType": "Fighter",
+    "movement": 2,
+    "rangedStrength": 35,
+    "range": 5,
+    "cost": 1600,
+    "requiredResource": "Oil",
+    "requiredTech": "Aviation",
+    "uniques": [
+      "Can intercept enemy air attacks",
+      "Provides [100%] air reconnaissance"
+    ]
+  },
+  {
+    "name": "Mortar",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 35,
+    "rangedStrength": 65,
+    "range": 2,
+    "cost": 1450,
+    "requiredResource": "Iron",
+    "requiredTech": "Mortars",
+    "uniques": [
+      "[+100%] strength when attacking [City] tiles",
+      "Indirect fire capability",
+      "Must set up to range attack"
+    ]
+  },
+  {
+    "name": "Heavy Bomber",
+    "unitType": "Bomber",
+    "movement": 2,
+    "rangedStrength": 55,
+    "range": 6,
+    "cost": 1850,
+    "requiredResource": "Oil",
+    "requiredTech": "Early Bombers",
+    "uniques": [
+      "[+50%] strength when attacking [City] tiles",
+      "[-50%] strength when defending against air attacks"
+    ]
+  },
+  {
+    "name": "Mark I Tank",
+    "unitType": "Armored",
+    "movement": 3,
+    "strength": 480,
+    "cost": 2200,
+    "requiredResource": "Oil",
+    "requiredTech": "Mark I Tanks",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores defensive terrain bonuses of enemy units",
+      "Can cross [Ice] tiles"
+    ]
+  },
+  {
+    "name": "Red Baron Triplane",
+    "unitType": "Fighter",
+    "movement": 2,
+    "rangedStrength": 65,
+    "range": 6,
+    "cost": 2100,
+    "requiredResource": "Oil",
+    "requiredTech": "The Red Baron",
+    "uniques": [
+      "Can intercept enemy air attacks",
+      "Provides [100%] air reconnaissance",
+      "[+33%] strength when attacking enemy [Fighter] units"
+    ]
+  },
+  {
+    "name": "A7V Tank",
+    "unitType": "Armored",
+    "movement": 3,
+    "strength": 580,
+    "cost": 2500,
+    "requiredResource": "Oil",
+    "requiredTech": "A7V Tanks",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when defending",
+      "[-25%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 320,
+    "cost": 1800,
+    "requiredTech": "Wall Street Crash"
+  },
+  {
+    "name": "Submachine Gunner",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 360,
+    "cost": 1950,
+    "requiredTech": "Tommy Gun Warfare",
+    "uniques": [
+      "[+33%] strength when attacking inside [City] tiles",
+      "May attack 1 additional time per turn"
+    ]
+  },
+  {
+    "name": "Rifle Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 420,
+    "cost": 2200,
+    "requiredTech": "Semi-Automatic Rifles",
+    "uniques": [
+      "[+25%] strength when defending",
+      "May attack 1 additional time per turn"
+    ]
+  },
+  {
+    "name": "MP-38 Gunner",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 450,
+    "cost": 2400,
+    "requiredTech": "MP-38 Submachine Gun",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when attacking in [Open terrain] tiles"
+    ]
+  },
+  {
+    "name": "Marine",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 550,
+    "cost": 2600,
+    "requiredTech": "Hindenburg Disaster",
+    "uniques": [
+      "[+25%] strength when attacking from [Water] tiles",
+      "Amphibious assault capability"
+    ]
+  },
+  {
+    "name": "Tank",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 750,
+    "cost": 3200,
+    "requiredResource": "Oil",
+    "requiredTech": "Invasion of Poland",
+    "uniques": [
+      "Can move after attacking",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "Anti-Tank Gun",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 400,
+    "cost": 2400,
+    "requiredTech": "Anti-Tank Artillery",
+    "uniques": [
+      "[+100%] strength vs [Armored] units"
+    ]
+  },
+  {
+    "name": "Anti-Aircraft Gun",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 380,
+    "cost": 2400,
+    "requiredTech": "Early Anti-Aircraft",
+    "uniques": [
+      "Can intercept enemy air attacks",
+      "[+100%] strength vs [Fighter] units",
+      "[+100%] strength vs [Bomber] units"
+    ]
+  },
+  {
+    "name": "Tiger II",
+    "unitType": "Armored",
+    "movement": 3,
+    "strength": 950,
+    "cost": 3800,
+    "requiredResource": "Oil",
+    "requiredTech": "Tiger II Tanks",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when defending",
+      "[-33%] strength when attacking [City] tiles"
+    ]
+  },
+  {
+    "name": "V-1 Rocket",
+    "unitType": "Missile",
+    "movement": 1,
+    "rangedStrength": 250,
+    "range": 8,
+    "cost": 1500,
+    "requiredTech": "V-1 Rockets",
+    "uniques": [
+      "Ejected after attacking",
+      "Indirect fire capability"
+    ]
+  },
+    {
+    "name": "Jet Fighter",
+    "unitType": "Fighter",
+    "movement": 2,
+    "rangedStrength": 90,
+    "range": 8,
+    "cost": 2800,
+    "requiredResource": "Oil",
+    "requiredTech": "Aerodynamics",
+    "uniques": [
+      "Can intercept enemy air attacks",
+      "Provides [100%] air reconnaissance",
+      "[+50%] strength when attacking enemy [Bomber] units"
+    ]
+  },
+  {
+    "name": "V-2 Rocket",
+    "unitType": "Missile",
+    "movement": 1,
+    "rangedStrength": 450,
+    "range": 12,
+    "cost": 2200,
+    "requiredTech": "V-2 Rockets",
+    "uniques": [
+      "Ejected after attacking",
+      "Indirect fire capability",
+      "Cannot be intercepted by Anti-Aircraft units"
+    ]
+  },
+  {
+    "name": "Assault Infantry",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 680,
+    "cost": 2800,
+    "requiredTech": "AK-47 Development",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when fighting in [Rough terrain] tiles"
+    ]
+  },
+  {
+    "name": "Cold War Infantry",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 850,
+    "cost": 3400,
+    "requiredTech": "M16A1",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when fighting in [Forest] and [Jungle] tiles"
+    ]
+  },
+  {
+    "name": "Jet Bomber",
+    "unitType": "Bomber",
+    "movement": 2,
+    "rangedStrength": 120,
+    "range": 10,
+    "cost": 3600,
+    "requiredResource": "Oil",
+    "requiredTech": "Korean War",
+    "uniques": [
+      "[+50%] strength when attacking [City] tiles",
+      "Can evasion enemy interception [50%]"
+    ]
+  },
+  {
+    "name": "Incendiary Bomber",
+    "unitType": "Bomber",
+    "movement": 2,
+    "rangedStrength": 140,
+    "range": 8,
+    "cost": 3800,
+    "requiredResource": "Oil",
+    "requiredTech": "Napalm Weaponry",
+    "uniques": [
+      "[+50%] strength when attacking enemy units in [Forest] tiles",
+      "[+50%] strength when attacking enemy units in [Jungle] tiles"
+    ]
+  },
+  {
+    "name": "Atomic Bomb",
+    "unitType": "Missile",
+    "movement": 1,
+    "rangedStrength": 999,
+    "range": 15,
+    "cost": 6000,
+    "requiredResource": "Uranium",
+    "requiredTech": "Nuclear Weapons",
+    "uniques": [
+      "Ejected after attacking",
+      "Blasts nuclear fallout on target",
+      "Destroys adjacent tile improvements"
+    ]
+  },
+  {
+    "name": "Flamethrower Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 750,
+    "cost": 3200,
+    "requiredResource": "Oil",
+    "requiredTech": "Flamethrower Warfare",
+    "uniques": [
+      "[+50%] strength when attacking [City] tiles",
+      "[+33%] strength when attacking enemy units in [Fort] tiles"
+    ]
+  },
+  {
+    "name": "Modern Infantry",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 980,
+    "cost": 3600,
+    "requiredTech": "M16A4 Rifle",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when defending",
+      "Ignores defensive terrain bonuses of enemy units"
+    ]
+  },
+  {
+    "name": "Mechanized Infantry",
+    "unitType": "Gunpowder",
+    "movement": 4,
+    "strength": 1250,
+    "cost": 4500,
+    "requiredResource": "Oil",
+    "requiredTech": "Windows 95",
+    "uniques": [
+      "Can move after attacking",
+      "[+25%] strength when defending in [Open terrain] tiles"
+    ]
+  },
+  {
+    "name": "Special Forces",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 1450,
+    "cost": 5000,
+    "requiredTech": "War on Terror",
+    "uniques": [
+      "Can move after attacking",
+      "Ignore terrain cost",
+      "Amphibious assault capability"
+    ]
+  },
+  {
+    "name": "Laser Striker",
+    "unitType": "Ranged",
+    "movement": 3,
+    "strength": 850,
+    "rangedStrength": 1600,
+    "range": 3,
+    "cost": 5500,
+    "requiredTech": "Laser Technology",
+    "uniques": [
+      "Indirect fire capability",
+      "Ignores defensive terrain bonuses of enemy units"
+    ]
+  },
+  {
+    "name": "AA Rifleman",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 920,
+    "cost": 4800,
+    "requiredTech": "Anti-Aircraft Rifles",
+    "uniques": [
+      "Can intercept enemy air attacks",
+      "[+150%] strength vs [Fighter] units",
+      "[+150%] strength vs [Bomber] units"
+    ]
+  },
+  {
+    "name": "Cybernetic Soldier",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 1950,
+    "cost": 6500,
+    "requiredResource": "Iron",
+    "requiredTech": "Cyborgization",
+    "uniques": [
+      "Can move after attacking",
+      "Heals HP per turn after killing an enemy unit",
+      "Ignores defensive terrain bonuses of enemy units"
+    ]
+  },
+  {
+    "name": "Blade Striker",
+    "unitType": "Melee",
+    "movement": 4,
+    "strength": 2200,
+    "cost": 7000,
+    "requiredResource": "Iron",
+    "requiredTech": "Ballistic Blade Launchers",
+    "uniques": [
+      "Can move after attacking",
+      "May attack 1 additional time per turn",
+      "Earns [Gold] from killed units"
+    ]
+  },
+  {
+    "name": "Nano Swarm",
+    "unitType": "Armored",
+    "movement": 4,
+    "strength": 2800,
+    "cost": 8500,
+    "requiredTech": "Nanoraiders",
+    "uniques": [
+      "Can move after attacking",
+      "All adjacent enemy units take [20] damage each turn",
+      "Ignores defensive terrain bonuses of enemy units"
+    ]
+  },
+  {
+    "name": "Hover Tank",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 4500,
+    "cost": 12000,
+    "requiredResource": "Uranium",
+    "requiredTech": "Lunar Metropolis",
+    "uniques": [
+      "Can move after attacking",
+      "Ignore terrain cost",
+      "Can cross [Ice] tiles"
+    ]
+  },
+  {
+    "name": "Orbital Cannon",
+    "unitType": "Siege",
+    "movement": 1,
+    "strength": 990,
+    "rangedStrength": 3500,
+    "range": 20,
+    "cost": 15000,
+    "requiredResource": "Uranium",
+    "requiredTech": "Intercontinental Artillery",
+    "uniques": [
+      "[+200%] strength when attacking [City] tiles",
+      "Indirect fire capability",
+      "Must set up to range attack",
+      "No defensive terrain bonuses"
+    ]
+  },
+  {
+    "name": "Skycar Striker",
+    "unitType": "Armored",
+    "movement": 6,
+    "strength": 3800,
+    "cost": 14000,
+    "requiredResource": "Oil",
+    "requiredTech": "Flying Cars",
+    "uniques": [
+      "Can move after attacking",
+      "Ignore terrain cost",
+      "Can cross [Water] tiles"
+    ]
+  },
+  {
+    "name": "Hypersonic Explorer",
+    "unitType": "Civilian",
+    "movement": 6,
+    "cost": 5000,
+    "requiredTech": "Deep Space Hypersonic Rocketry",
+    "uniques": [
+      "Can move after attacking",
+      "Ignore terrain cost",
+      "Can see through [Forest] and [Jungle] tiles",
+      "May withdraw when faced with melee attack"
+    ]
+  }
+
+]

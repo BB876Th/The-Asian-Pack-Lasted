@@ -1,0 +1,2198 @@
+[
+  {
+    "name": "Stone Tools",
+    "cost": 10,
+    "era": "Neolithic Era",
+    "prerequisites": [],
+    "uniques": [
+      "[+1 Production] from [Mine] improvements"
+    ]
+  },
+  {
+    "name": "Agriculture",
+    "cost": 20,
+    "era": "Neolithic Era",
+    "prerequisites": ["Stone Tools"],
+    "uniques": [
+      "[+1 Food] from [Farm] improvements"
+    ]
+  },
+  {
+    "name": "Pottery",
+    "cost": 35,
+    "era": "Neolithic Era",
+    "prerequisites": ["Agriculture"],
+    "uniques": [
+      "[+10%] [Food] in all cities",
+      "[+1 Gold] from [Oasis] tiles"
+    ]
+  },
+  {
+    "name": "Obsidian Blades",
+    "cost": 35,
+    "era": "Neolithic Era",
+    "prerequisites": ["Agriculture"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Melee] units",
+      "[+10%] strength for [Melee] units"
+    ]
+  },
+  {
+    "name": "Masonry",
+    "cost": 55,
+    "era": "Neolithic Era",
+    "prerequisites": ["Pottery"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Wonder] wonders",
+      "[+1 Production] from [Quarry] improvements"
+    ]
+  },
+  {
+    "name": "Bronze Working",
+    "cost": 55,
+    "era": "Neolithic Era",
+    "prerequisites": ["Pottery"],
+    "uniques": [
+      "Reveals [Iron] on the map",
+      "[+1 Production] in all cities"
+    ]
+  },
+  {
+    "name": "Archery",
+    "cost": 55,
+    "era": "Neolithic Era",
+    "prerequisites": ["Obsidian Blades"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Ranged] units",
+      "New [Ranged] units start with [+15] XP",
+      "Allows [Archer] units"
+    ]
+  },
+  {
+    "name": "Granary Construction",
+    "cost": 90,
+    "era": "Bronze Age",
+    "prerequisites": ["Masonry", "Bronze Working", "Archery"],
+    "uniques": [
+      "Allows [Granary] buildings",
+      "[+1 Food] in all cities"
+    ]
+  },
+  {
+    "name": "Writing",
+    "cost": 120,
+    "era": "Bronze Age",
+    "prerequisites": ["Granary Construction"],
+    "uniques": [
+      "Allows [Library] buildings",
+      "[+1 Science] in all cities"
+    ]
+  },
+  {
+    "name": "Horseback Riding",
+    "cost": 175,
+    "era": "Bronze Age",
+    "prerequisites": ["Writing"],
+    "uniques": [
+      "Reveals [Horses] on the map",
+      "[+15%] [Production] when constructing [Mounted] units",
+      "Allows [Horseman] units"
+    ]
+  },
+  {
+    "name": "Brewing",
+    "cost": 175,
+    "era": "Bronze Age",
+    "prerequisites": ["Writing"],
+    "uniques": [
+      "[+2 Happiness] in all cities",
+      "Allows [Brewery] buildings"
+    ]
+  },
+  {
+    "name": "Slavery",
+    "cost": 175,
+    "era": "Bronze Age",
+    "prerequisites": ["Writing"],
+    "uniques": [
+      "[+25%] [Production] when constructing [Buildings] buildings in all cities",
+      "[-10%] [Food] in all cities",
+      "Allows [Slave Laborer] units"
+    ]
+  },
+  {
+    "name": "Staff Lore",
+    "cost": 250,
+    "era": "Bronze Age",
+    "prerequisites": ["Horseback Riding"],
+    "uniques": [
+      "[+1 Faith] in all cities",
+      "[+10%] strength for [Religious] units"
+    ]
+  },
+  {
+    "name": "Urban Legends",
+    "cost": 250,
+    "era": "Bronze Age",
+    "prerequisites": ["Brewing"],
+    "uniques": [
+      "[+2 Culture] in all cities",
+      "[+10%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Pyramids",
+    "cost": 250,
+    "era": "Bronze Age",
+    "prerequisites": ["Slavery"],
+    "uniques": [
+      "Allows [The Pyramids] wonders",
+      "[+1 Production] from [Slave Laborer] units"
+    ]
+  },
+  {
+    "name": "Barter System",
+    "cost": 325,
+    "era": "Bronze Age",
+    "prerequisites": ["Staff Lore"],
+    "uniques": [
+      "[+2 Gold] in all cities",
+      "[+1 Gold] from [Trade route] connections"
+    ]
+  },
+  {
+    "name": "Music",
+    "cost": 325,
+    "era": "Bronze Age",
+    "prerequisites": ["Urban Legends"],
+    "uniques": [
+      "[+3 Culture] in all cities",
+      "Allows [Amphitheater] buildings"
+    ]
+  },
+  {
+    "name": "Religious Rituals",
+    "cost": 325,
+    "era": "Bronze Age",
+    "prerequisites": ["Pyramids"],
+    "uniques": [
+      "[+2 Faith] in all cities",
+      "Allows [Shrine] buildings"
+    ]
+  },
+    {
+    "name": "Iron Working",
+    "cost": 450,
+    "era": "Iron Age",
+    "prerequisites": ["Barter System", "Music", "Religious Rituals"],
+    "uniques": [
+      "[+1 Production] from [Mine] improvements",
+      "Allows [Swordsman] units"
+    ]
+  },
+    {
+    "name": "Sundial",
+    "cost": 540,
+    "era": "Iron Age",
+    "prerequisites": ["Iron Working"],
+    "uniques": [
+      "[+15%] [Science] in all cities",
+      "Allows [Observatory] buildings"
+    ]
+  },
+    {
+    "name": "Coinage",
+    "cost": 650,
+    "era": "Iron Age",
+    "prerequisites": ["Sundial"],
+    "uniques": [
+      "[+15%] [Gold] in all cities",
+      "Allows [Mint] buildings"
+    ]
+  },
+  {
+    "name": "Cabinetry",
+    "cost": 780,
+    "era": "Iron Age",
+    "prerequisites": ["Coinage"],
+    "uniques": [
+      "[+1 Happiness] from [Barracks] buildings",
+      "[+10%] [Production] when constructing [Buildings] buildings"
+    ]
+  },
+  {
+    "name": "Glassblowing",
+    "cost": 780,
+    "era": "Iron Age",
+    "prerequisites": ["Coinage"],
+    "uniques": [
+      "Allows [Glassworks] buildings",
+      "[+1 Science] from [Oasis] tiles"
+    ]
+  },
+  {
+    "name": "Locksmithing",
+    "cost": 780,
+    "era": "Iron Age",
+    "prerequisites": ["Coinage"],
+    "uniques": [
+      "[+20%] Defense for all cities",
+      "[+2 Gold] from [Mint] buildings"
+    ]
+  },
+  {
+    "name": "Sailing Ships",
+    "cost": 780,
+    "era": "Iron Age",
+    "prerequisites": ["Coinage"],
+    "uniques": [
+      "Allows Embarkation for all land units",
+      "Allows [Sailing Ship] units"
+    ]
+  },
+  {
+    "name": "Glass Cabinet",
+    "cost": 950,
+    "era": "Iron Age",
+    "prerequisites": ["Cabinetry", "Glassblowing"],
+    "uniques": [
+      "[+3 Culture] in all cities",
+      "Allows [Museum] buildings"
+    ]
+  },
+  {
+    "name": "Prison",
+    "cost": 950,
+    "era": "Iron Age",
+    "prerequisites": ["Locksmithing", "Sailing Ships"],
+    "uniques": [
+      "[-15%] Unhappiness from [Population] in all cities",
+      "Allows [Constabulary] buildings"
+    ]
+  },
+  {
+    "name": "Pageantry",
+    "cost": 1150,
+    "era": "Iron Age",
+    "prerequisites": ["Glass Cabinet"],
+    "uniques": [
+      "[+3 Happiness] in all cities",
+      "Allows [Theater] buildings"
+    ]
+  },
+  {
+    "name": "Steel Swords",
+    "cost": 1150,
+    "era": "Iron Age",
+    "prerequisites": ["Prison"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Melee] units",
+      "Allows [Longswordsman] units"
+    ]
+  },
+  {
+    "name": "Marketplace",
+    "cost": 1500,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Pageantry", "Steel Swords"],
+    "uniques": [
+      "Allows [Market] buildings",
+      "[+1 Gold] from [Oasis] tiles"
+    ]
+  },
+  {
+    "name": "Whip",
+    "cost": 1800,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Marketplace"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Buildings] buildings in all cities",
+      "[+1 Production] from [Slave Laborer] units"
+    ]
+  },
+  {
+    "name": "Pike Lore",
+    "cost": 2200,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Whip"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Melee] units",
+      "Allows [Pikeman] units"
+    ]
+  },
+  {
+    "name": "Herbal Medicine",
+    "cost": 2200,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Whip"],
+    "uniques": [
+      "Provides a [Apothecary] in all cities for free",
+      "[+10%] [Food] in all cities"
+    ]
+  },
+  {
+    "name": "Sugar Refining",
+    "cost": 2700,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Pike Lore"],
+    "uniques": [
+      "[+1 Gold] from [Farm] improvements",
+      "[+1 Happiness] from [Sugar] tiles"
+    ]
+  },
+  {
+    "name": "Book Writing",
+    "cost": 2700,
+    "era": "Classical Greek Era",
+    "prerequisites": ["Herbal Medicine"],
+    "uniques": [
+      "[+20%] [Science] in all cities",
+      "Allows [University] buildings"
+    ]
+  },
+  {
+    "name": "Tweezers",
+    "cost": 3600,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Sugar Refining", "Book Writing"],
+    "uniques": [
+      "[+10%] [Food] in all cities",
+      "Provides a [Medical Lab] in all cities for free"
+    ]
+  },
+  {
+    "name": "Polytheism",
+    "cost": 4300,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Tweezers"],
+    "uniques": [
+      "[+20%] [Faith] in all cities",
+      "Allows [Pantheon] buildings"
+    ]
+  },
+  {
+    "name": "Crossbows",
+    "cost": 5200,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Polytheism"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Ranged] units",
+      "Allows [Crossbowman] units"
+    ]
+  },
+  {
+    "name": "Harp Music",
+    "cost": 5200,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Polytheism"],
+    "uniques": [
+      "[+3 Culture] in all cities",
+      "Allows [Grand Amphitheater] buildings"
+    ]
+  },
+  {
+    "name": "Candles",
+    "cost": 5200,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Polytheism"],
+    "uniques": [
+      "[+10%] [Science] in all cities",
+      "[+10%] [Production] in all cities"
+    ]
+  },
+  {
+    "name": "Pulley Systems",
+    "cost": 6400,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Crossbows"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Wonders] wonders in all cities",
+      "Allows [Workshop] buildings"
+    ]
+  },
+  {
+    "name": "Latin Alphabet",
+    "cost": 6400,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Harp Music"],
+    "uniques": [
+      "[+20%] [Culture] in all cities",
+      "[+20%] [Science] in all cities"
+    ]
+  },
+  {
+    "name": "Scissors",
+    "cost": 6400,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Candles"],
+    "uniques": [
+      "[+1 Gold] from [Sheep] tiles",
+      "[+15%] [Production] when constructing [Civilian] units"
+    ]
+  },
+  {
+    "name": "Hand Drills",
+    "cost": 7800,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Pulley Systems"],
+    "uniques": [
+      "[+1 Production] from [Mine] improvements",
+      "[+15%] [Production] when constructing [Wonders] wonders"
+    ]
+  },
+  {
+    "name": "Banking",
+    "cost": 7800,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Latin Alphabet"],
+    "uniques": [
+      "Allows [Bank] buildings",
+      "[+1 Gold] from [Trade route] connections"
+    ]
+  },
+  {
+    "name": "Wine Making",
+    "cost": 7800,
+    "era": "Classical Roman Era",
+    "prerequisites": ["Scissors"],
+    "uniques": [
+      "[+2 Happiness] in all cities",
+      "[+1 Gold] from [Wine] tiles"
+    ]
+  },
+  {
+    "name": "Christianity",
+    "cost": 9200,
+    "era": "Dark Ages",
+    "prerequisites": ["Hand Drills", "Banking", "Wine Making"],
+    "uniques": [
+      "[+25%] [Faith] in all cities",
+      "Allows [Cathedral] buildings"
+    ]
+  },
+  {
+    "name": "Credit System",
+    "cost": 11000,
+    "era": "Dark Ages",
+    "prerequisites": ["Christianity"],
+    "uniques": [
+      "[+2 Gold] from [Trade route] connections",
+      "Allows [Merchant's Guild] buildings"
+    ]
+  },
+  {
+    "name": "Formal Education",
+    "cost": 13500,
+    "era": "Dark Ages",
+    "prerequisites": ["Credit System"],
+    "uniques": [
+      "[+20%] [Science] in all cities",
+      "Allows [Public School] buildings"
+    ]
+  },
+  {
+    "name": "Religious Crossroad",
+    "cost": 13500,
+    "era": "Dark Ages",
+    "prerequisites": ["Credit System"],
+    "uniques": [
+      "Allows [Grand Mosque] buildings",
+      "Allows [Holy Abbey] buildings"
+    ]
+  },
+  {
+    "name": "Telescopes",
+    "cost": 13500,
+    "era": "Dark Ages",
+    "prerequisites": ["Credit System"],
+    "uniques": [
+      "[+15%] [Science] in all cities",
+      "[+2 Science] from [Mountain] tiles"
+    ]
+  },
+  {
+    "name": "Gunpowder",
+    "cost": 16500,
+    "era": "Dark Ages",
+    "prerequisites": ["Formal Education"],
+    "uniques": [
+      "Reveals [Saltpeter] on the map",
+      "Allows [Musketeer] units"
+    ]
+  },
+  {
+    "name": "Jerusalem Question",
+    "cost": 16500,
+    "era": "Dark Ages",
+    "prerequisites": ["Religious Crossroad"],
+    "uniques": [
+      "[+25%] strength for all [Military] units near enemy cities of other Religions",
+      "Allows [Paladin] units"
+    ]
+  },
+  {
+    "name": "Wheelbarrows",
+    "cost": 16500,
+    "era": "Dark Ages",
+    "prerequisites": ["Telescopes"],
+    "uniques": [
+      "[+1 Production] from [Farm] improvements",
+      "[+15%] [Production] when constructing [Buildings] buildings"
+    ]
+  },
+  {
+    "name": "Holy Land",
+    "cost": 21000,
+    "era": "Crusade Era",
+    "prerequisites": ["Gunpowder", "Jerusalem Question", "Wheelbarrows"],
+    "uniques": [
+      "[+30%] [Faith] in all cities",
+      "Allows [Citadel of Faith] buildings"
+    ]
+  },
+  {
+    "name": "Artillery",
+    "cost": 26000,
+    "era": "Crusade Era",
+    "prerequisites": ["Holy Land"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Siege] units",
+      "Allows [Trebuchet] units"
+    ]
+  },
+  {
+    "name": "Council of Clermont",
+    "cost": 26000,
+    "era": "Crusade Era",
+    "prerequisites": ["Holy Land"],
+    "uniques": [
+      "[+25%] Great General growth rate",
+      "[+2 Happiness] from [Cathedral] buildings"
+    ]
+  },
+  {
+    "name": "Water Clocks",
+    "cost": 26000,
+    "era": "Crusade Era",
+    "prerequisites": ["Holy Land"],
+    "uniques": [
+      "[+15%] [Science] in all cities",
+      "[+15%] [Production] when constructing [Buildings] buildings"
+    ]
+  },
+  {
+    "name": "Treasure Junks",
+    "cost": 26000,
+    "era": "Crusade Era",
+    "prerequisites": ["Holy Land"],
+    "uniques": [
+      "[+2 Gold] from [Ocean] tiles",
+      "Allows [Treasure Junk] units"
+    ]
+  },
+  {
+    "name": "Matchlock Warfare",
+    "cost": 31000,
+    "era": "Crusade Era",
+    "prerequisites": ["Artillery", "Council of Clermont"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Matchlock Musketeer] units"
+    ]
+  },
+  {
+    "name": "Real Estate",
+    "cost": 31000,
+    "era": "Crusade Era",
+    "prerequisites": ["Water Clocks", "Treasure Junks"],
+    "uniques": [
+      "[+20%] [Gold] in all cities",
+      "Allows [Manor] buildings"
+    ]
+  },
+  {
+    "name": "Feudalism",
+    "cost": 45000,
+    "era": "Medieval Era",
+    "prerequisites": ["Matchlock Warfare", "Real Estate"],
+    "uniques": [
+      "[+2 Production] from [Castle] buildings",
+      "Allows [Knight] units"
+    ]
+  },
+  {
+    "name": "Hand Cannons",
+    "cost": 55000,
+    "era": "Medieval Era",
+    "prerequisites": ["Feudalism"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Hand Cannoneer] units"
+    ]
+  },
+  {
+    "name": "Plague Doctors",
+    "cost": 55000,
+    "era": "Medieval Era",
+    "prerequisites": ["Feudalism"],
+    "uniques": [
+      "Provides a [Quarantine Station] in all cities for free",
+      "[-10%] Unhappiness from [Population] in all cities"
+    ]
+  },
+  {
+    "name": "Standard Weights",
+    "cost": 55000,
+    "era": "Medieval Era",
+    "prerequisites": ["Feudalism"],
+    "uniques": [
+      "[+2 Gold] from [Market] buildings",
+      "[+1 Gold] from [Trade route] connections"
+    ]
+  },
+  {
+    "name": "Gutenberg Press",
+    "cost": 55000,
+    "era": "Medieval Era",
+    "prerequisites": ["Feudalism"],
+    "uniques": [
+      "[+25%] [Science] in all cities",
+      "[+20%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "German Alphabet",
+    "cost": 68000,
+    "era": "Medieval Era",
+    "prerequisites": ["Hand Cannons"],
+    "uniques": [
+      "[+15%] [Science] in all cities",
+      "[+15%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Lanterns",
+    "cost": 68000,
+    "era": "Medieval Era",
+    "prerequisites": ["Plague Doctors"],
+    "uniques": [
+      "[+20%] Defense for all cities",
+      "[+1 Production] from all tiles with [Road]"
+    ]
+  },
+  {
+    "name": "Grand Bazaar",
+    "cost": 68000,
+    "era": "Medieval Era",
+    "prerequisites": ["Standard Weights"],
+    "uniques": [
+      "Allows [Grand Bazaar] buildings",
+      "[+2 Gold] from [Trade route] connections"
+    ]
+  },
+  {
+    "name": "Early Lipsticks",
+    "cost": 68000,
+    "era": "Medieval Era",
+    "prerequisites": ["Gutenberg Press"],
+    "uniques": [
+      "[+3 Happiness] in all cities",
+      "[+10%] [Gold] in all cities"
+    ]
+  },
+  {
+    "name": "English Alphabet",
+    "cost": 82000,
+    "era": "Medieval Era",
+    "prerequisites": ["German Alphabet", "Lanterns"],
+    "uniques": [
+      "[+20%] [Science] in all cities",
+      "[+20%] [Culture] in all cities",
+      "Allows [National College] wonders"
+    ]
+  },
+  {
+    "name": "Corporation",
+    "cost": 82000,
+    "era": "Medieval Era",
+    "prerequisites": ["Grand Bazaar", "Early Lipsticks"],
+    "uniques": [
+      "[+30%] [Gold] in all cities",
+      "Allows [Stock Exchange] buildings"
+    ]
+  },
+  {
+    "name": "The Renaissance",
+    "cost": 115000,
+    "era": "Renaissance Era",
+    "prerequisites": ["English Alphabet", "Corporation"],
+    "uniques": [
+      "[+25%] [Science] in all cities",
+      "[+25%] [Culture] in all cities",
+      "Allows [Great Artist] specialist slots"
+    ]
+  },
+  {
+    "name": "Percentage",
+    "cost": 138000,
+    "era": "Renaissance Era",
+    "prerequisites": ["The Renaissance"],
+    "uniques": [
+      "[+15%] [Gold] in all cities",
+      "[+15%] [Science] in all cities",
+      "Allows [Customs House] buildings"
+    ]
+  },
+  {
+    "name": "Spinning Jenny",
+    "cost": 168000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Percentage"],
+    "uniques": [
+      "[+2 Production] from [Cotton] tiles",
+      "[+15%] [Production] when constructing [Civilian] units"
+    ]
+  },
+  {
+    "name": "Venetian Glass",
+    "cost": 168000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Percentage"],
+    "uniques": [
+      "[+2 Culture] from [Glassworks] buildings",
+      "[+3 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Hand Grenades",
+    "cost": 168000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Percentage"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Grenadier] units"
+    ]
+  },
+  {
+    "name": "Fractional Distillation",
+    "cost": 168000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Percentage"],
+    "uniques": [
+      "[+20%] [Science] in all cities",
+      "Reveals [Coal] on the map"
+    ]
+  },
+  {
+    "name": "Proportional Compasses",
+    "cost": 195000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Spinning Jenny"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Wonders] wonders in all cities",
+      "[+10%] [Science] in all cities"
+    ]
+  },
+  {
+    "name": "Sanitation Systems",
+    "cost": 195000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Venetian Glass"],
+    "uniques": [
+      "[-15%] Unhappiness from [Population] in all cities",
+      "Allows [Hospital] buildings"
+    ]
+  },
+  {
+    "name": "Redcoat Regiment",
+    "cost": 195000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Hand Grenades"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Redcoat] units"
+    ]
+  },
+  {
+    "name": "Rapier Swords",
+    "cost": 195000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Fractional Distillation"],
+    "uniques": [
+      "[+10%] strength for [Melee] units",
+      "[+2 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Kerosene Distillation",
+    "cost": 230000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Proportional Compasses", "Sanitation Systems"],
+    "uniques": [
+      "[+2 Gold] from [Oil] tiles",
+      "[+15%] [Production] in all cities"
+    ]
+  },
+  {
+    "name": "Nock Gun Warfare",
+    "cost": 230000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Redcoat Regiment", "Rapier Swords"],
+    "uniques": [
+      "[+20%] strength when defending for all [Gunpowder] units",
+      "Allows [Nock Gunner] units"
+    ]
+  },
+  {
+    "name": "Anti-Piracy Operations",
+    "cost": 270000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Kerosene Distillation"],
+    "uniques": [
+      "[+3 Gold] from [Trade route] connections",
+      "[+20%] strength for all [Water] units"
+    ]
+  },
+  {
+    "name": "Explosive Shells",
+    "cost": 270000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Nock Gunner Warfare"],
+    "uniques": [
+      "Allows [Bombard] units",
+      "[+15%] [Production] when constructing [Siege] units"
+    ]
+  },
+  {
+    "name": "Steam Engine",
+    "cost": 320000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Anti-Piracy Operations"],
+    "uniques": [
+      "[+2 Production] from all tiles with [Mine]",
+      "[+20%] [Production] in all cities"
+    ]
+  },
+  {
+    "name": "Duckfoot Pistol Warfare",
+    "cost": 320000,
+    "era": "Renaissance Era",
+    "prerequisites": ["Explosive Shells"],
+    "uniques": [
+      "[+15%] strength when defending for all [Gunpowder] units",
+      "Allows [Duckfoot Gunner] units"
+    ]
+  },
+  {
+    "name": "Steam Locomotive",
+    "cost": 410000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Steam Engine", "Duckfoot Pistol Warfare"],
+    "uniques": [
+      "Allows [Train Station] buildings",
+      "[+1 Production] from all tiles with [Road]"
+    ]
+  },
+  {
+    "name": "Colt Revolvers",
+    "cost": 530000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Steam Locomotive"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Cavalry] units"
+    ]
+  },
+  {
+    "name": "Chemical Cleaners",
+    "cost": 530000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Steam Locomotive"],
+    "uniques": [
+      "[+15%] [Food] in all cities",
+      "[-10%] Unhappiness from [Population] in all cities"
+    ]
+  },
+  {
+    "name": "Ice Harvesting",
+    "cost": 530000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Steam Locomotive"],
+    "uniques": [
+      "[+2 Food] from [Tundra] tiles",
+      "[+2 Food] from [Ice] tiles"
+    ]
+  },
+  {
+    "name": "Lathe Machines",
+    "cost": 530000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Steam Locomotive"],
+    "uniques": [
+      "[+25%] [Production] when constructing [Factory] buildings",
+      "[+1 Production] from [Mine] improvements"
+    ]
+  },
+  {
+    "name": "Cowboy Culture",
+    "cost": 690000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Colt Revolvers"],
+    "uniques": [
+      "[+2 Production] from [Pasture] improvements",
+      "[+1 Gold] from [Pasture] improvements"
+    ]
+  },
+  {
+    "name": "Financial Markets",
+    "cost": 690000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Chemical Cleaners"],
+    "uniques": [
+      "[+20%] [Gold] in all cities",
+      "Provides [Great Merchant] specialist slots"
+    ]
+  },
+  {
+    "name": "Tobacco Industry",
+    "cost": 690000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Ice Harvesting"],
+    "uniques": [
+      "[+4 Happiness] in all cities",
+      "[+1 Gold] from [Plantation] improvements"
+    ]
+  },
+  {
+    "name": "Ream Paper Production",
+    "cost": 690000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Lathe Machines"],
+    "uniques": [
+      "[+20%] [Science] in all cities",
+      "[+20%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Metallic Cartridges",
+    "cost": 850000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Cowboy Culture"],
+    "uniques": [
+      "[+20%] strength for all [Gunpowder] units",
+      "Allows [Gatling Gun] units"
+    ]
+  },
+  {
+    "name": "Oil Drilling",
+    "cost": 850000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Financial Markets"],
+    "uniques": [
+      "Reveals [Oil] on the map",
+      "[+3 Gold] from [Oil] tiles"
+    ]
+  },
+  {
+    "name": "Scented Candles",
+    "cost": 850000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Tobacco Industry"],
+    "uniques": [
+      "[+5 Happiness] in all cities",
+      "[+10%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Imperialism",
+    "cost": 850000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Ream Paper Production"],
+    "uniques": [
+      "[+25%] strength when attacking outside friendly territory",
+      "[-20%] [Culture] cost of adopting new policies"
+    ]
+  },
+  {
+    "name": "Gas-Operated Firearms",
+    "cost": 115000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Metallic Cartridges"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Machine Gun] units"
+    ]
+  },
+  {
+    "name": "Internal Combustion Engine",
+    "cost": 115000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Oil Drilling"],
+    "uniques": [
+      "[+20%] [Production] in all cities",
+      "Allows [Landship] units"
+    ]
+  },
+  {
+    "name": "Telegraphy",
+    "cost": 115000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Scented Candles"],
+    "uniques": [
+      "[+25%] Gold from [Trade route] connections",
+      "[+15%] [Science] in all cities"
+    ]
+  },
+  {
+    "name": "The Empire on which the sun never sets",
+    "cost": 115000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Imperialism"],
+    "uniques": [
+      "[+2 Happiness] from all [Capital] cities",
+      "[+20%] [Culture] in all cities",
+      "[+1] Movement for all [Water] units"
+    ]
+  },
+  {
+    "name": "Armored Cars",
+    "cost": 145000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Gas-Operated Firearms", "Internal Combustion Engine"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Armored] units",
+      "Allows [Armored Car] units"
+    ]
+  },
+  {
+    "name": "Telephony",
+    "cost": 145000,
+    "era": "Industrial Revolution Era",
+    "prerequisites": ["Telegraphy", "The Empire on which the sun never sets"],
+    "uniques": [
+      "[+30%] Gold from [Trade route] connections",
+      "[+25%] [Science] in all cities"
+    ]
+  },
+  {
+    "name": "Bosnian Crisis",
+    "cost": 680000,
+    "era": "World War I Era",
+    "prerequisites": ["Armored Cars", "Telephony"],
+    "uniques": [
+      "[+25%] strength when defending for all [Military] units",
+      "Allows [Great War Infantry] units"
+    ]
+  },
+  {
+    "name": "Annexation of Bosnia",
+    "cost": 750000,
+    "era": "World War I Era",
+    "prerequisites": ["Bosnian Crisis"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Military] units in all cities",
+      "[-15%] Unhappiness from [Occupied] cities"
+    ]
+  },
+  {
+    "name": "Balkan Wars",
+    "cost": 890000,
+    "era": "World War I Era",
+    "prerequisites": ["Annexation of Bosnia"],
+    "uniques": [
+      "[+20%] strength when attacking for all [Military] units",
+      "[+15%] [Production] when constructing [Melee] units"
+    ]
+  },
+  {
+    "name": "Aviation",
+    "cost": 890000,
+    "era": "World War I Era",
+    "prerequisites": ["Annexation of Bosnia"],
+    "uniques": [
+      "Allows [Biplane] units",
+      "[+15%] [Production] when constructing [Fighter] units"
+    ]
+  },
+  {
+    "name": "Ceddin Deden",
+    "cost": 1050000,
+    "era": "World War I Era",
+    "prerequisites": ["Balkan Wars"],
+    "uniques": [
+      "[+15%] strength when attacking for all [Military] units",
+      "[+2 Culture] from [Garrisoned] units"
+    ]
+  },
+  {
+    "name": "Second Balkan War",
+    "cost": 1050000,
+    "era": "World War I Era",
+    "prerequisites": ["Balkan Wars"],
+    "uniques": [
+      "[+20%] [Production] when constructing [Military] units",
+      "[+10] XP for new [Military] units"
+    ]
+  },
+  {
+    "name": "Facsimile Technology",
+    "cost": 1050000,
+    "era": "World War I Era",
+    "prerequisites": ["Aviation"],
+    "uniques": [
+      "[+20%] Gold from [Trade route] connections",
+      "[+15%] [Science] in all cities"
+    ]
+  },
+  {
+    "name": "Military Academies",
+    "cost": 1050000,
+    "era": "World War I Era",
+    "prerequisites": ["Aviation"],
+    "uniques": [
+      "Allows [Military Academy] buildings",
+      "New [Military] units start with [+15] XP"
+    ]
+  },
+  {
+    "name": "Mortars",
+    "cost": 1250000,
+    "era": "World War I Era",
+    "prerequisites": ["Ceddin Deden"],
+    "uniques": [
+      "Allows [Mortar] units",
+      "[+15%] [Production] when constructing [Siege] units"
+    ]
+  },
+  {
+    "name": "The Great War",
+    "cost": 1250000,
+    "era": "World War I Era",
+    "prerequisites": ["Second Balkan War"],
+    "uniques": [
+      "[+25%] strength when attacking inside enemy territory",
+      "[+20%] [Production] when constructing [Military] units"
+    ]
+  },
+  {
+    "name": "Early Bombers",
+    "cost": 1250000,
+    "era": "World War I Era",
+    "prerequisites": ["Facsimile Technology"],
+    "uniques": [
+      "Allows [Heavy Bomber] units",
+      "[+15%] [Production] when constructing [Bomber] units"
+    ]
+  },
+  {
+    "name": "Smokeless Powder",
+    "cost": 1250000,
+    "era": "World War I Era",
+    "prerequisites": ["Military Academies"],
+    "uniques": [
+      "[+20%] strength for all [Ranged] units",
+      "[+15%] strength for all [Gunpowder] units"
+    ]
+  },
+  {
+    "name": "Chemical Warfare",
+    "cost": 1450000,
+    "era": "World War I Era",
+    "prerequisites": ["Mortars"],
+    "uniques": [
+      "[+15%] strength when attacking for all [Ranged] units",
+      "All [Military] units cause [-10] HP healing to adjacent enemy units"
+    ]
+  },
+  {
+    "name": "Gallipoli Campaign",
+    "cost": 1450000,
+    "era": "World War I Era",
+    "prerequisites": ["The Great War"],
+    "uniques": [
+      "All land units embark/disembark without losing Movement",
+      "[+20%] strength when fighting on [Coast] tiles"
+    ]
+  },
+  {
+    "name": "Mark I Tanks",
+    "cost": 1450000,
+    "era": "World War I Era",
+    "prerequisites": ["Early Bombers"],
+    "uniques": [
+      "Allows [Mark I Tank] units",
+      "[+15%] [Production] when constructing [Armored] units"
+    ]
+  },
+  {
+    "name": "Morphine Medicals",
+    "cost": 1450000,
+    "era": "World War I Era",
+    "prerequisites": ["Smokeless Powder"],
+    "uniques": [
+      "All [Military] units heal at [+10] HP per turn",
+      "Provides a [Field Hospital] in all cities for free"
+    ]
+  },
+  {
+    "name": "The Red Baron",
+    "cost": 1750000,
+    "era": "World War I Era",
+    "prerequisites": ["Chemical Warfare"],
+    "uniques": [
+      "[+20%] strength for all [Fighter] units",
+      "Allows [Red Baron Triplane] units"
+    ]
+  },
+  {
+    "name": "Somme and Verdun",
+    "cost": 1750000,
+    "era": "World War I Era",
+    "prerequisites": ["Gallipoli Campaign"],
+    "uniques": [
+      "[+30%] strength when defending for all [Military] units",
+      "[+20%] Production when constructing [Fort] improvements"
+    ]
+  },
+  {
+    "name": "A7V Tanks",
+    "cost": 1750000,
+    "era": "World War I Era",
+    "prerequisites": ["Mark I Tanks"],
+    "uniques": [
+      "Allows [A7V Tank] units",
+      "[+15%] strength for all [Armored] units"
+    ]
+  },
+  {
+    "name": "Heroin Medicine",
+    "cost": 1750000,
+    "era": "World War I Era",
+    "prerequisites": ["Morphine Medicals"],
+    "uniques": [
+      "All [Military] units gain [+20] HP healing per turn",
+      "[+3 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Abolition of Slavery",
+    "cost": 2100000,
+    "era": "World War I Era",
+    "prerequisites": ["The Red Baron", "Somme and Verdun"],
+    "uniques": [
+      "[+25%] [Culture] in all cities",
+      "[+15%] [Food] in all cities",
+      "Obsolete tech [Slavery]"
+    ]
+  },
+  {
+    "name": "Communism",
+    "cost": 2100000,
+    "era": "World War I Era",
+    "prerequisites": ["A7V Tanks", "Heroin Medicine"],
+    "uniques": [
+      "[+25%] [Production] in all cities",
+      "[-20%] [Production] cost of adopting new wonders",
+      "Allows [Factory] buildings"
+    ]
+  },
+  {
+    "name": "Treaty of Versailles",
+    "cost": 2500000,
+    "era": "World War I Era",
+    "prerequisites": ["Abolition of Slavery", "Communism"],
+    "uniques": [
+      "[+30%] [Gold] in all cities",
+      "[-15%] [Production] when constructing [Military] units in all cities",
+      "Allows [League of Nations] wonders"
+    ]
+  },
+  {
+    "name": "Wall Street Crash",
+    "cost": 3000000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Treaty of Versailles"],
+    "uniques": [
+      "[-30%] [Gold] in all cities",
+      "[+15%] [Production] when constructing [Buildings] buildings",
+      "Allows [Infantry] units"
+    ]
+  },
+  {
+    "name": "Teddy Bears",
+    "cost": 3600000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Wall Street Crash"],
+    "uniques": [
+      "[+5 Happiness] in all cities",
+      "[+10%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Manifest Destiny",
+    "cost": 3600000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Wall Street Crash"],
+    "uniques": [
+      "[+20%] strength when attacking for all [Military] units",
+      "[+15%] [Production] when constructing [Civilian] units"
+    ]
+  },
+  {
+    "name": "Big Ben Clocktower",
+    "cost": 3600000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Wall Street Crash"],
+    "uniques": [
+      "[+15%] [Production] in all cities",
+      "Allows [Big Ben] wonders"
+    ]
+  },
+  {
+    "name": "Prohibition",
+    "cost": 3600000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Wall Street Crash"],
+    "uniques": [
+      "[+4 Happiness] in all cities",
+      "[-15%] [Gold] in all cities",
+      "Obsolete tech [Brewing]"
+    ]
+  },
+  {
+    "name": "Tommy Gun Warfare",
+    "cost": 4200000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Teddy Bears"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Submachine Gunner] units"
+    ]
+  },
+  {
+    "name": "Fascism",
+    "cost": 4200000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Manifest Destiny"],
+    "uniques": [
+      "[+25%] strength when attacking for all [Military] units",
+      "[+20%] [Production] when constructing [Military] units"
+    ]
+  },
+  {
+    "name": "Hoover Administration",
+    "cost": 4200000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Big Ben Clocktower"],
+    "uniques": [
+      "[+2 Production] from all [River] tiles",
+      "Allows [Hoover Dam] wonders"
+    ]
+  },
+  {
+    "name": "Ku Klux Klan Movement",
+    "cost": 4200000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Prohibition"],
+    "uniques": [
+      "All [Military] units gain [+15%] strength when fighting in [Friendly land] tiles",
+      "[-15%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Semi-Automatic Rifles",
+    "cost": 4800000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Tommy Gun Warfare"],
+    "uniques": [
+      "[+20%] strength for all [Gunpowder] units",
+      "Allows [Rifle Infantry] units"
+    ]
+  },
+  {
+    "name": "Hitler Regime",
+    "cost": 4800000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Fascism"],
+    "uniques": [
+      "[+30%] [Production] when constructing [Military] units",
+      "New [Military] units start with [+20] XP",
+      "[-15%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "FDR Administration",
+    "cost": 4800000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Hoover Administration"],
+    "uniques": [
+      "[+20%] [Production] when constructing [Buildings] buildings in all cities",
+      "[+15%] [Gold] in all cities",
+      "[+4 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Modern Lipsticks",
+    "cost": 4800000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Ku Klux Klan Movement"],
+    "uniques": [
+      "[+5 Happiness] in all cities",
+      "[+20%] [Gold] in all cities"
+    ]
+  },
+  {
+    "name": "MP-38 Submachine Gun",
+    "cost": 5400000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["Semi-Automatic Rifles", "Hitler Regime"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [MP-38 Gunner] units"
+    ]
+  },
+  {
+    "name": "New Deal Policies",
+    "cost": 5400000,
+    "era": "The Great Depression Era",
+    "prerequisites": ["FDR Administration", "Modern Lipsticks"],
+    "uniques": [
+      "[+25%] [Gold] in all cities",
+      "[+20%] [Production] when constructing [Buildings] buildings",
+      "[+5 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Hindenburg Disaster",
+    "cost": 6500000,
+    "era": "World War II Era",
+    "prerequisites": ["MP-38 Submachine Gun", "New Deal Policies"],
+    "uniques": [
+      "[-10 Happiness] in all cities",
+      "[+30%] [Science] in all cities",
+      "Allows [Marine] units"
+    ]
+  },
+  {
+    "name": "Invasion of Poland",
+    "cost": 7200000,
+    "era": "World War II Era",
+    "prerequisites": ["Hindenburg Disaster"],
+    "uniques": [
+      "[+25%] strength when attacking inside enemy territory",
+      "Allows [Tank] units"
+    ]
+  },
+  {
+    "name": "Anti-Tank Artillery",
+    "cost": 7200000,
+    "era": "World War II Era",
+    "prerequisites": ["Hindenburg Disaster"],
+    "uniques": [
+      "Allows [Anti-Tank Gun] units",
+      "[+15%] [Production] when constructing [Siege] units"
+    ]
+  },
+  {
+    "name": "Early Anti-Aircraft",
+    "cost": 7200000,
+    "era": "World War II Era",
+    "prerequisites": ["Hindenburg Disaster"],
+    "uniques": [
+      "Allows [Anti-Aircraft Gun] units",
+      "[+20%] Defense for all cities"
+    ]
+  },
+  {
+    "name": "Mechanical Computing",
+    "cost": 7200000,
+    "era": "World War II Era",
+    "prerequisites": ["Hindenburg Disaster"],
+    "uniques": [
+      "[+25%] [Science] in all cities",
+      "Reduces spy effectiveness in all cities by [30%]"
+    ]
+  },
+  {
+    "name": "Invasion of the Low Countries and France",
+    "cost": 8500000,
+    "era": "World War II Era",
+    "prerequisites": ["Invasion of Poland"],
+    "uniques": [
+      "[+25%] [Gold] in all cities",
+      "[-20%] Unhappiness from [Occupied] cities"
+    ]
+  },
+  {
+    "name": "Tiger II Tanks",
+    "cost": 8500000,
+    "era": "World War II Era",
+    "prerequisites": ["Anti-Tank Artillery"],
+    "uniques": [
+      "Allows [Tiger II] units",
+      "[+15%] strength for all [Armored] units"
+    ]
+  },
+  {
+    "name": "V-1 Rockets",
+    "cost": 8500000,
+    "era": "World War II Era",
+    "prerequisites": ["Early Anti-Aircraft"],
+    "uniques": [
+      "Allows [V-1 Rocket] units",
+      "[+15%] [Production] when constructing [Guided Missile] units"
+    ]
+  },
+  {
+    "name": "Enigma Ciphers",
+    "cost": 8500000,
+    "era": "World War II Era",
+    "prerequisites": ["Mechanical Computing"],
+    "uniques": [
+      "[+30%] strength when defending for all [Military] units",
+      "Reduces spy effectiveness in all cities by [50%]"
+    ]
+  },
+  {
+    "name": "Operation Barbarossa",
+    "cost": 9800000,
+    "era": "World War II Era",
+    "prerequisites": ["Invasion of the Low Countries and France"],
+    "uniques": [
+      "[+33%] strength when attacking inside enemy territory",
+      "[+20%] [Production] when constructing [Military] units"
+    ]
+  },
+  {
+    "name": "Aerodynamics",
+    "cost": 9800000,
+    "era": "World War II Era",
+    "prerequisites": ["Tiger II Tanks"],
+    "uniques": [
+      "Allows [Jet Fighter] units",
+      "[+20%] [Production] when constructing [Fighter] units"
+    ]
+  },
+  {
+    "name": "V-2 Rockets",
+    "cost": 9800000,
+    "era": "World War II Era",
+    "prerequisites": ["V-1 Rockets"],
+    "uniques": [
+      "Allows [V-2 Rocket] units",
+      "[+25%] strength for all [Guided Missile] units"
+    ]
+  },
+  {
+    "name": "AK-47 Development",
+    "cost": 9800000,
+    "era": "World War II Era",
+    "prerequisites": ["Enigma Ciphers"],
+    "uniques": [
+      "[+25%] strength for all [Gunpowder] units",
+      "Allows [Assault Infantry] units"
+    ]
+  },
+  {
+    "name": "Siege of Leningrad",
+    "cost": 11000000,
+    "era": "World War II Era",
+    "prerequisites": ["Operation Barbarossa"],
+    "uniques": [
+      "[+30%] strength when defending for all [Military] units",
+      "All [City] tiles gain [+5] Defense"
+    ]
+  },
+  {
+    "name": "Bulletproof Glass",
+    "cost": 11000000,
+    "era": "World War II Era",
+    "prerequisites": ["Aerodynamics"],
+    "uniques": [
+      "[+15%] Defense for all [Armored] units",
+      "[+15%] Defense for all [Fighter] units"
+    ]
+  },
+  {
+    "name": "World Police Concept",
+    "cost": 11000000,
+    "era": "World War II Era",
+    "prerequisites": ["V-2 Rockets"],
+    "uniques": [
+      "[+20%] Gold from [Trade route] connections",
+      "Provides [+2] Diplomatic Victory votes"
+    ]
+  },
+  {
+    "name": "X-ray Medicals",
+    "cost": 11000000,
+    "era": "World War II Era",
+    "prerequisites": ["AK-47 Development"],
+    "uniques": [
+      "All [Military] units heal at [+15] HP per turn",
+      "Provides a [Military Hospital] in all cities for free"
+    ]
+  },
+  {
+    "name": "Battle of Berlin",
+    "cost": 13500000,
+    "era": "World War II Era",
+    "prerequisites": ["Siege of Leningrad", "Bulletproof Glass"],
+    "uniques": [
+      "[+33%] strength when attacking [City] tiles",
+      "[+20%] [Production] when constructing [Armored] units"
+    ]
+  },
+  {
+    "name": "DNA Theory",
+    "cost": 13500000,
+    "era": "World War II Era",
+    "prerequisites": ["World Police Concept", "X-ray Medicals"],
+    "uniques": [
+      "[+30%] [Science] in all cities",
+      "[+20%] [Food] in all cities"
+    ]
+  },
+  {
+    "name": "United Nations",
+    "cost": 16000000,
+    "era": "World War II Era",
+    "prerequisites": ["Battle of Berlin", "DNA Theory"],
+    "uniques": [
+      "[+30%] Gold from [Trade route] connections",
+      "[+6 Happiness] in all cities",
+      "Allows [United Nations] wonders"
+    ]
+  },
+  {
+    "name": "M16A1",
+    "cost": 22000000,
+    "era": "Cold War Era",
+    "prerequisites": ["United Nations"],
+    "uniques": [
+      "[+25%] strength when attacking for all [Gunpowder] units",
+      "Allows [Cold War Infantry] units"
+    ]
+  },
+  {
+    "name": "Television Media",
+    "cost": 25000000,
+    "era": "Cold War Era",
+    "prerequisites": ["M16A1"],
+    "uniques": [
+      "[+25%] [Culture] in all cities",
+      "[+5 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Advanced Logarithms",
+    "cost": 25000000,
+    "era": "Cold War Era",
+    "prerequisites": ["M16A1"],
+    "uniques": [
+      "[+25%] [Science] in all cities",
+      "[+15%] strength for all [Ranged] units"
+    ]
+  },
+  {
+    "name": "Korean War",
+    "cost": 25000000,
+    "era": "Cold War Era",
+    "prerequisites": ["M16A1"],
+    "uniques": [
+      "[+20%] strength when attacking inside enemy territory",
+      "Allows [Jet Bomber] units"
+    ]
+  },
+  {
+    "name": "Indochina Wars",
+    "cost": 25000000,
+    "era": "Cold War Era",
+    "prerequisites": ["M16A1"],
+    "uniques": [
+      "All [Military] units gain [+25%] strength when defending in [Jungle] tiles",
+      "[+20%] [Production] when constructing [Gunpowder] units"
+    ]
+  },
+  {
+    "name": "Napalm Weaponry",
+    "cost": 32000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Television Media"],
+    "uniques": [
+      "[+20%] strength when attacking enemy units in [Forest] tiles",
+      "[+20%] strength when attacking enemy units in [Jungle] tiles",
+      "Allows [Incendiary Bomber] units"
+    ]
+  },
+  {
+    "name": "Unit 731 Research",
+    "cost": 32000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Advanced Logarithms"],
+    "uniques": [
+      "[+30%] [Science] in all cities",
+      "All [Military] units cause [-20] HP healing to adjacent enemy units",
+      "[-15%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Nuclear Weapons",
+    "cost": 32000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Korean War"],
+    "uniques": [
+      "Reveals [Uranium] on the map",
+      "Allows [Atomic Bomb] units",
+      "Allows [Nuclear Plant] buildings"
+    ]
+  },
+  {
+    "name": "Zinc-Carbon Batteries",
+    "cost": 32000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Indochina Wars"],
+    "uniques": [
+      "[+15%] [Production] in all cities",
+      "[+20%] Gold from [Trade route] connections"
+    ]
+  },
+  {
+    "name": "Apollo Program",
+    "cost": 42000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Napalm Weaponry"],
+    "uniques": [
+      "[+30%] [Science] in all cities",
+      "[+20%] [Culture] in all cities",
+      "Allows [Apollo Program] wonders"
+    ]
+  },
+  {
+    "name": "IBM Mainframes",
+    "cost": 42000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Unit 731 Research"],
+    "uniques": [
+      "[+25%] [Science] in all cities",
+      "Reduces spy effectiveness in all cities by [40%]"
+    ]
+  },
+  {
+    "name": "Video Games Invention",
+    "cost": 42000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Nuclear Weapons"],
+    "uniques": [
+      "[+5 Happiness] in all cities",
+      "[+15%] [Gold] in all cities"
+    ]
+  },
+  {
+    "name": "Flamethrower Warfare",
+    "cost": 42000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Zinc-Carbon Batteries"],
+    "uniques": [
+      "[+15%] [Production] when constructing [Gunpowder] units",
+      "Allows [Flamethrower Infantry] units"
+    ]
+  },
+  {
+    "name": "Apollo 11 Mission",
+    "cost": 58000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Apollo Program"],
+    "uniques": [
+      "[+35%] [Science] in all cities",
+      "[+25%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "M16A4 Rifle",
+    "cost": 58000000,
+    "era": "Cold War Era",
+    "prerequisites": ["IBM Mainframes"],
+    "uniques": [
+      "[+20%] strength for all [Gunpowder] units",
+      "Allows [Modern Infantry] units"
+    ]
+  },
+  {
+    "name": "SimCity Simulation",
+    "cost": 58000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Video Games Invention"],
+    "uniques": [
+      "[+20%] [Production] when constructing [Buildings] buildings in all cities",
+      "[+15%] [Gold] in all cities"
+    ]
+  },
+  {
+    "name": "Drip Coffee Makers",
+    "cost": 58000000,
+    "era": "Cold War Era",
+    "prerequisites": ["Flamethrower Warfare"],
+    "uniques": [
+      "[+15%] [Production] in all cities",
+      "[+3 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Windows 95",
+    "cost": 95000000,
+    "era": "Digital Age",
+    "prerequisites": ["Apollo 11 Mission", "M16A4 Rifle", "SimCity Simulation", "Drip Coffee Makers"],
+    "uniques": [
+      "[+30%] [Science] in all cities",
+      "[+30%] [Gold] in all cities",
+      "Allows [Mechanized Infantry] units"
+    ]
+  },
+  {
+    "name": "Collapse of the Soviet Union",
+    "cost": 115000000,
+    "era": "Digital Age",
+    "prerequisites": ["Windows 95"],
+    "uniques": [
+      "[+25%] [Culture] in all cities",
+      "[+5 Happiness] in all cities",
+      "All other civilizations gain [-10%] strength when fighting inside your territory"
+    ]
+  },
+  {
+    "name": "Windows 2000 OS",
+    "cost": 115000000,
+    "era": "Digital Age",
+    "prerequisites": ["Windows 95"],
+    "uniques": [
+      "[+30%] [Science] in all cities",
+      "[+20%] [Gold] in all cities",
+      "Reduces spy effectiveness in all cities by [35%]"
+    ]
+  },
+  {
+    "name": "9/11 Attacks",
+    "cost": 135000000,
+    "era": "Digital Age",
+    "prerequisites": ["Collapse of the Soviet Union"],
+    "uniques": [
+      "[-10 Happiness] in all cities",
+      "[+30%] strength when defending for all [Military] units",
+      "Reduces spy effectiveness in all cities by [40%]"
+    ]
+  },
+  {
+    "name": "Civilization III Game",
+    "cost": 135000000,
+    "era": "Digital Age",
+    "prerequisites": ["Windows 2000 OS"],
+    "uniques": [
+      "[+25%] [Culture] in all cities",
+      "[+5 Happiness] in all cities",
+      "[-15%] Culture cost of adopting new policies"
+    ]
+  },
+  {
+    "name": "War on Terror",
+    "cost": 155000000,
+    "era": "Digital Age",
+    "prerequisites": ["9/11 Attacks"],
+    "uniques": [
+      "[+25%] strength when attacking for all [Military] units outside friendly territory",
+      "Allows [Special Forces] units"
+    ]
+  },
+  {
+    "name": "Red Alert 2 Game",
+    "cost": 155000000,
+    "era": "Digital Age",
+    "prerequisites": ["Civilization III Game"],
+    "uniques": [
+      "[+30%] [Gold] in all cities",
+      "[+10 Happiness] in all cities",
+      "[+15%] [Production] when constructing [Armored] units"
+    ]
+  },
+  {
+    "name": "Social Media Platforms",
+    "cost": 185000000,
+    "era": "Digital Age",
+    "prerequisites": ["War on Terror"],
+    "uniques": [
+      "[+30%] [Culture] in all cities",
+      "[+20%] [Gold] in all cities",
+      "[-20%] Culture cost of adopting new policies"
+    ]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "cost": 185000000,
+    "era": "Digital Age",
+    "prerequisites": ["Red Alert 2 Game"],
+    "uniques": [
+      "[+35%] [Science] in all cities",
+      "[+20%] [Production] in all cities",
+      "Allows [AI Core] buildings"
+    ]
+  },
+  {
+    "name": "TikTok Algorithm",
+    "cost": 210000000,
+    "era": "Digital Age",
+    "prerequisites": ["Social Media Platforms"],
+    "uniques": [
+      "[+35%] [Culture] in all cities",
+      "[+20%] [Gold] in all cities",
+      "[+5 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Solar Cell Revolution",
+    "cost": 210000000,
+    "era": "Digital Age",
+    "prerequisites": ["Artificial Intelligence"],
+    "uniques": [
+      "[+20%] [Production] in all cities",
+      "Provides a [Solar Plant] in all cities for free"
+    ]
+  },
+  {
+    "name": "Smartphones Evolution",
+    "cost": 280000000,
+    "era": "Digital Age",
+    "prerequisites": ["Human Cloning"],
+    "uniques": [
+      "[+35%] [Gold] in all cities",
+      "[+30%] [Culture] in all cities",
+      "[+5 Happiness] in all cities"
+    ]
+  },
+  {
+    "name": "Anti-Aircraft Rifles",
+    "cost": 280000000,
+    "era": "Digital Age",
+    "prerequisites": ["Laser Technology"],
+    "uniques": [
+      "Allows [AA Rifleman] units",
+      "[+20%] strength when defending for all [Military] units"
+    ]
+  },
+  {
+    "name": "Cyborgization",
+    "cost": 350000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Smartphones Evolution", "Anti-Aircraft Rifles"],
+    "uniques": [
+      "[+40%] [Science] in all cities",
+      "[+20%] strength for all [Military] units",
+      "Allows [Cybernetic Soldier] units"
+    ]
+  },
+  {
+    "name": "Lunar Base",
+    "cost": 450000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Cyborgization"],
+    "uniques": [
+      "[+35%] [Science] in all cities",
+      "[+20%] [Production] in all cities",
+      "Allows [Lunar Outpost] buildings"
+    ]
+  },
+  {
+    "name": "Lunar Agriculture",
+    "cost": 520000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Lunar Base"],
+    "uniques": [
+      "[+30%] [Food] in all cities",
+      "Provides a [Bio-Dome] in all cities for free"
+    ]
+  },
+  {
+    "name": "Android Robotics",
+    "cost": 600000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Lunar Agriculture"],
+    "uniques": [
+      "[+25%] [Production] in all cities",
+      "[-15%] [Production] cost of adopting new buildings",
+      "Provides a [Android Factory] in all cities for free"
+    ]
+  },
+  {
+    "name": "Ballistic Blade Launchers",
+    "cost": 600000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Lunar Agriculture"],
+    "uniques": [
+      "[+20%] strength when attacking for all [Melee] units",
+      "Allows [Blade Striker] units"
+    ]
+  },
+  {
+    "name": "Time Reversal Mechanics",
+    "cost": 850000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Android Robotics"],
+    "uniques": [
+      "[+40%] [Science] in all cities",
+      "[+30%] [Culture] in all cities",
+      "Allows [Chrono Reactor] wonders"
+    ]
+  },
+  {
+    "name": "Nanoraiders",
+    "cost": 850000000,
+    "era": "Cyborg Age",
+    "prerequisites": ["Ballistic Blade Launchers"],
+    "uniques": [
+      "All [Military] units heal at [+30] HP per turn",
+      "Provides a [Nanite Network] in all cities for free",
+      "Allows [Nano Swarm] units"
+    ]
+  },
+  {
+    "name": "Lunar Metropolis",
+    "cost": 1200000000,
+    "era": "Space Age",
+    "prerequisites": ["Time Reversal Mechanics", "Nanoraiders"],
+    "uniques": [
+      "[+50%] [Science] in all cities",
+      "[+40%] [Gold] in all cities",
+      "Allows [Hover Tank] units"
+    ]
+  },
+  {
+    "name": "Dark Matter",
+    "cost": 1500000000,
+    "era": "Space Age",
+    "prerequisites": ["Lunar Metropolis"],
+    "uniques": [
+      "[+45%] [Science] in all cities",
+      "[+30%] [Production] in all cities",
+      "Allows [Dark Matter Reactor] buildings"
+    ]
+  },
+  {
+    "name": "Atmospheric Extractors",
+    "cost": 1850000000,
+    "era": "Space Age",
+    "prerequisites": ["Dark Matter"],
+    "uniques": [
+      "[+30%] [Food] in all cities",
+      "[+20%] [Production] in all cities",
+      "Provides a [Terraforming Station] in all cities for free"
+    ]
+  },
+  {
+    "name": "Mars Exploration",
+    "cost": 1850000000,
+    "era": "Space Age",
+    "prerequisites": ["Dark Matter"],
+    "uniques": [
+      "[+35%] [Science] in all cities",
+      "[+25%] [Culture] in all cities",
+      "Allows [Spaceship Factory] buildings"
+    ]
+  },
+  {
+    "name": "Intercontinental Artillery",
+    "cost": 1850000000,
+    "era": "Space Age",
+    "prerequisites": ["Dark Matter"],
+    "uniques": [
+      "[+20%] strength when attacking for all [Siege] units",
+      "Allows [Orbital Cannon] units"
+    ]
+  },
+  {
+    "name": "Mars Base",
+    "cost": 2200000000,
+    "era": "Space Age",
+    "prerequisites": ["Atmospheric Extractors", "Mars Exploration"],
+    "uniques": [
+      "[+35%] [Food] in all cities",
+      "[+25%] [Production] in all cities",
+      "Allows [Martian Colony] buildings"
+    ]
+  },
+  {
+    "name": "James Webb Telescope",
+    "cost": 2200000000,
+    "era": "Space Age",
+    "prerequisites": ["Mars Exploration"],
+    "uniques": [
+      "[+50%] [Science] in all cities",
+      "[+10%] [Culture] in all cities"
+    ]
+  },
+  {
+    "name": "Flying Cars",
+    "cost": 2200000000,
+    "era": "Space Age",
+    "prerequisites": ["Intercontinental Artillery"],
+    "uniques": [
+      "[+25%] Gold from [Trade route] connections",
+      "All land units embark/disembark without losing Movement",
+      "Allows [Skycar Striker] units"
+    ]
+  },
+  {
+    "name": "Space Elevator",
+    "cost": 2600000000,
+    "era": "Space Age",
+    "prerequisites": ["Mars Base"],
+    "uniques": [
+      "[+30%] [Production] in all cities",
+      "[-20%] [Production] cost of adopting new wonders",
+      "Allows [Space Elevator] wonders"
+    ]
+  },
+  {
+    "name": "Reusable Rocketry",
+    "cost": 2600000000,
+    "era": "Space Age",
+    "prerequisites": ["James Webb Telescope"],
+    "uniques": [
+      "[+30%] [Gold] in all cities",
+      "[-25%] Gold cost of purchasing units and buildings in all cities"
+    ]
+  },
+  {
+    "name": "Flavor Synthesizers",
+    "cost": 2600000000,
+    "era": "Space Age",
+    "prerequisites": ["Flying Cars"],
+    "uniques": [
+      "[+30%] [Food] in all cities",
+      "[+5 Happiness] in all cities",
+      "Provides a [Nutrient Lounge] in all cities for free"
+    ]
+  },
+  {
+    "name": "Deep Space Hypersonic Rocketry",
+    "cost": 3200000000,
+    "era": "Space Age",
+    "prerequisites": ["Space Elevator", "Reusable Rocketry", "Flavor Synthesizers"],
+    "uniques": [
+      "[+50%] [Science] in all cities",
+      "[+2] Movement for all [Water] units",
+      "Allows [Hypersonic Explorer] units"
+    ]
+  },
+  {
+    "name": "One More Turn...",
+    "cost": 5000000000,
+    "era": "Space Age",
+    "prerequisites": ["Deep Space Hypersonic Rocketry"],
+    "uniques": [
+      "[+100%] [Science] in all cities",
+      "[+100%] [Production] in all cities",
+      "[+50 Happiness] in all cities",
+      "Allows [Future Tech] projects"
+    ]
+  }
+
+]

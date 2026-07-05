@@ -1,0 +1,615 @@
+[
+  {
+    "name": "Granary",
+    "cost": 60,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Food]",
+      "[+1 Food] from [Wheat] tiles",
+      "[+1 Food] from [Bananas] tiles"
+    ],
+    "requiredTech": "Granary Construction"
+  },
+  {
+    "name": "Library",
+    "cost": 75,
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Science] for every [2] population in this city"
+    ],
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Brewery",
+    "cost": 80,
+    "maintenance": 2,
+    "uniques": [
+      "[+2 Happiness]",
+      "[+1 Gold] from [Wheat] tiles"
+    ],
+    "requiredTech": "Brewing"
+  },
+  {
+    "name": "Amphitheater",
+    "cost": 100,
+    "maintenance": 2,
+    "uniques": [
+      "[+3 Culture]"
+    ],
+    "requiredTech": "Music"
+  },
+  {
+    "name": "Shrine",
+    "cost": 40,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Faith]"
+    ],
+    "requiredTech": "Religious Rituals"
+  },
+    {
+    "name": "Observatory",
+    "cost": 120,
+    "maintenance": 2,
+    "uniques": [
+      "[+4 Science]",
+      "[+10%] [Science] in this city"
+    ],
+    "requiredTech": "Sundial"
+  },
+  {
+    "name": "Mint",
+    "cost": 120,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Gold]",
+      "[+2 Gold] from [Gold] tiles",
+      "[+2 Gold] from [Silver] tiles"
+    ],
+    "requiredTech": "Coinage"
+  },
+  {
+    "name": "Glassworks",
+    "cost": 140,
+    "maintenance": 2,
+    "uniques": [
+      "[+3 Science]",
+      "[+1 Happiness]"
+    ],
+    "requiredTech": "Glassblowing"
+  },
+  {
+    "name": "Museum",
+    "cost": 160,
+    "maintenance": 3,
+    "uniques": [
+      "[+4 Culture]",
+      "[+10%] [Culture] in this city"
+    ],
+    "requiredTech": "Glass Cabinet"
+  },
+  {
+    "name": "Constabulary",
+    "cost": 160,
+    "maintenance": 2,
+    "uniques": [
+      "[+5] Defense in this city",
+      "Reduces spy effectiveness in this city by [25%]"
+    ],
+    "requiredTech": "Prison"
+  },
+  {
+    "name": "Theater",
+    "cost": 200,
+    "maintenance": 3,
+    "uniques": [
+      "[+4 Happiness]",
+      "[+2 Culture]"
+    ],
+    "requiredTech": "Pageantry"
+  },
+  {
+    "name": "Market",
+    "cost": 220,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Gold]",
+      "[+25%] [Gold] in this city"
+    ],
+    "requiredTech": "Marketplace"
+  },
+    {
+    "name": "Apothecary",
+    "cost": 150,
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Food]",
+      "[+1 Happiness]"
+    ],
+    "requiredTech": "Herbal Medicine"
+  },
+  {
+    "name": "University",
+    "cost": 260,
+    "maintenance": 3,
+    "uniques": [
+      "[+33%] [Science] in this city",
+      "[+2 Science] from [Jungle] tiles"
+    ],
+    "requiredTech": "Book Writing"
+  },
+  {
+    "name": "Medical Lab",
+    "cost": 300,
+    "maintenance": 2,
+    "uniques": [
+      "[+3 Food]",
+      "Carries over [25%] of Food after Growth"
+    ],
+    "requiredTech": "Tweezers"
+  },
+  {
+    "name": "Pantheon",
+    "cost": 320,
+    "maintenance": 2,
+    "uniques": [
+      "[+4 Faith]",
+      "[+2 Culture]",
+      "[+1 Happiness] from [Marble] tiles"
+    ],
+    "requiredTech": "Polytheism"
+  },
+  {
+    "name": "Grand Amphitheater",
+    "cost": 350,
+    "maintenance": 3,
+    "uniques": [
+      "[+5 Culture]",
+      "[+2 Happiness]"
+    ],
+    "requiredTech": "Harp Music"
+  },
+  {
+    "name": "Workshop",
+    "cost": 250,
+    "maintenance": 2,
+    "uniques": [
+      "[+2 Production]",
+      "[+10%] [Production] in this city"
+    ],
+    "requiredTech": "Pulley Systems"
+  },
+  {
+    "name": "Bank",
+    "cost": 300,
+    "maintenance": 1,
+    "uniques": [
+      "[+3 Gold]",
+      "[+25%] [Gold] in this city"
+    ],
+    "requiredTech": "Banking"
+  },
+  {
+    "name": "Cathedral",
+    "cost": 420,
+    "maintenance": 2,
+    "uniques": [
+      "[+6 Faith]",
+      "[+3 Culture]",
+      "[+1 Happiness] from [Wine] tiles"
+    ],
+    "requiredTech": "Christianity"
+  },
+  {
+    "name": "Merchant's Guild",
+    "cost": 450,
+    "maintenance": 3,
+    "uniques": [
+      "[+5 Gold]",
+      "[+15%] [Gold] in this city",
+      "Provides [1] [Merchant] specialist slots"
+    ],
+    "requiredTech": "Credit System"
+  },
+  {
+    "name": "Public School",
+    "cost": 450,
+    "maintenance": 3,
+    "uniques": [
+      "[+3 Science]",
+      "[+1 Science] for every [2] Population in this city"
+    ],
+    "requiredTech": "Formal Education"
+  },
+  {
+    "name": "Grand Mosque",
+    "cost": 400,
+    "maintenance": 2,
+    "uniques": [
+      "[+4 Faith]",
+      "[+3 Gold]",
+      "Cannot be built in cities with a [Holy Abbey]",
+      "New [Religious] units start with [+20] XP"
+    ],
+    "requiredTech": "Religious Crossroad"
+  },
+  {
+    "name": "Holy Abbey",
+    "cost": 400,
+    "maintenance": 2,
+    "uniques": [
+      "[+4 Faith]",
+      "[+3 Culture]",
+      "Cannot be built in cities with a [Grand Mosque]",
+      "[+10%] production toward [Buildings] in this city"
+    ],
+    "requiredTech": "Religious Crossroad"
+  },
+  {
+    "name": "Citadel of Faith",
+    "cost": 550,
+    "maintenance": 3,
+    "uniques": [
+      "[+8 Faith]",
+      "[+5 Defense] in this city",
+      "[+1 Happiness] from [Oasis] tiles"
+    ],
+    "requiredTech": "Holy Land"
+  },
+  {
+    "name": "Manor",
+    "cost": 500,
+    "maintenance": 4,
+    "uniques": [
+      "[+4 Gold]",
+      "[+2 Production]",
+      "[+1 Gold] from [Farm] improvements"
+    ],
+    "requiredTech": "Real Estate"
+  },
+  {
+    "name": "Quarantine Station",
+    "cost": 450,
+    "maintenance": 2,
+    "uniques": [
+      "[+3 Food]",
+      "[+2 Happiness]"
+    ],
+    "requiredTech": "Plague Doctors"
+  },
+  {
+    "name": "Grand Bazaar",
+    "cost": 500,
+    "maintenance": 2,
+    "uniques": [
+      "[+5 Gold]",
+      "[+25%] [Gold] in this city",
+      "Provides [2] [Spice] luxury resources free"
+    ],
+    "requiredTech": "Grand Bazaar"
+  },
+  {
+    "name": "Stock Exchange",
+    "cost": 600,
+    "maintenance": 3,
+    "uniques": [
+      "[+5 Gold]",
+      "[+33%] [Gold] in this city"
+    ],
+    "requiredTech": "Corporation"
+  },
+  {
+    "name": "National College",
+    "cost": 300,
+    "isNationalWonder": true,
+    "uniques": [
+      "[+5 Science]",
+      "[+50%] [Science] in this city"
+    ],
+    "requiredTech": "English Alphabet"
+  },
+  {
+    "name": "Customs House",
+    "cost": 650,
+    "maintenance": 3,
+    "uniques": [
+      "[+4 Gold]",
+      "[+2 Gold] from [Trade route] connections",
+      "[+10%] [Gold] in this city"
+    ],
+    "requiredTech": "Percentage"
+  },
+  {
+    "name": "Hospital",
+    "cost": 400,
+    "maintenance": 2,
+    "uniques": [
+      "[+5 Food]",
+      "Carries over [50%] of Food after Growth"
+    ],
+    "requiredTech": "Sanitation Systems"
+  },
+  {
+    "name": "Train Station",
+    "cost": 750,
+    "maintenance": 4,
+    "uniques": [
+      "[+25%] [Production] in this city",
+      "[+3 Gold] from [Trade route] connections"
+    ],
+    "requiredTech": "Steam Locomotive"
+  },
+  {
+    "name": "Military Academy",
+    "cost": 650,
+    "maintenance": 3,
+    "uniques": [
+      "New [Military] units start with [+30] XP",
+      "[+2 Production]"
+    ],
+    "requiredTech": "Military Academies"
+  },
+  {
+    "name": "Field Hospital",
+    "cost": 500,
+    "maintenance": 2,
+    "uniques": [
+      "[+4 Food]",
+      "Friendly units healing in this city heal at [+25] HP per turn"
+    ],
+    "requiredTech": "Morphine Medicals"
+  },
+  {
+    "name": "Factory",
+    "cost": 850,
+    "maintenance": 4,
+    "requiredResource": "Coal",
+    "uniques": [
+      "[+4 Production]",
+      "[+25%] [Production] in this city"
+    ],
+    "requiredTech": "Communism"
+  },
+  {
+    "name": "League of Nations",
+    "cost": 1200,
+    "isWorldWonder": true,
+    "uniques": [
+      "[+6 Culture]",
+      "[+6 Happiness]",
+      "Provides [+2] Diplomatic Victory votes",
+      "All other civilizations gain [+10] Influence toward City-States you are Friends with"
+    ],
+    "requiredTech": "Treaty of Versailles"
+  },
+  {
+    "name": "Big Ben",
+    "cost": 1400,
+    "isWorldWonder": true,
+    "uniques": [
+      "[+4 Gold]",
+      "[+15%] [Gold] in this city",
+      "[-15%] Gold cost of purchasing units and buildings in all cities"
+    ],
+    "requiredTech": "Big Ben Clocktower"
+  },
+  {
+    "name": "Hoover Dam",
+    "cost": 1500,
+    "isWorldWonder": true,
+    "uniques": [
+      "Provides a [Hydro Plant] in all cities for free",
+      "[+5 Production]",
+      "[+5 Gold]"
+    ],
+    "requiredTech": "Hoover Administration"
+  },
+  {
+    "name": "Military Hospital",
+    "cost": 650,
+    "maintenance": 3,
+    "uniques": [
+      "[+5 Food]",
+      "Friendly units healing in this city heal at [+35] HP per turn"
+    ],
+    "requiredTech": "X-ray Medicals"
+  },
+  {
+    "name": "United Nations",
+    "cost": 16000000,
+    "isWorldWonder": true,
+    "uniques": [
+      "[+10 Culture]",
+      "[+10 Happiness]",
+      "Provides [+4] Diplomatic Victory votes",
+      "Triggers a Diplomatic Victory vote every [10] turns"
+    ],
+    "requiredTech": "United Nations"
+  },
+  {
+    "name": "Nuclear Plant",
+    "cost": 1200,
+    "maintenance": 4,
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+10 Production]",
+      "[+33%] [Production] in this city"
+    ],
+    "requiredTech": "Nuclear Weapons"
+  },
+  {
+    "name": "Apollo Program",
+    "cost": 2500,
+    "isNationalWonder": true,
+    "uniques": [
+      "[+10 Science]",
+      "Allows construction of Spaceship parts"
+    ],
+    "requiredTech": "Apollo Program"
+  },
+  {
+    "name": "AI Core",
+    "cost": 1400,
+    "maintenance": 5,
+    "uniques": [
+      "[+10 Science]",
+      "[+5 Production]",
+      "[+25%] [Science] in this city"
+    ],
+    "requiredTech": "Artificial Intelligence"
+  },
+  {
+    "name": "Solar Plant",
+    "cost": 1500,
+    "maintenance": 3,
+    "uniques": [
+      "[+8 Production]",
+      "[+15%] [Production] in this city",
+      "[+2 Happiness]"
+    ],
+    "requiredTech": "Solar Cell Revolution"
+  },
+  {
+    "name": "Human Cloning",
+    "cost": 240000000,
+    "era": "Digital Age",
+    "prerequisites": ["TikTok Algorithm"],
+    "uniques": [
+      "[+30%] [Food] in all cities",
+      "[-15%] Unhappiness from [Population] in all cities",
+      "Provides a [Cloning Lab] in all cities for free"
+    ]
+  },
+  {
+    "name": "Laser Technology",
+    "cost": 240000000,
+    "era": "Digital Age",
+    "prerequisites": ["Solar Cell Revolution"],
+    "uniques": [
+      "[+20%] strength for all [Ranged] units",
+      "[+15%] strength for all [Military] units",
+      "Allows [Laser Striker] units"
+    ]
+  },
+  {
+    "name": "Cloning Lab",
+    "cost": 1600,
+    "maintenance": 4,
+    "uniques": [
+      "[+5 Food]",
+      "Carries over [40%] of Food after Growth"
+    ],
+    "requiredTech": "Human Cloning"
+  },
+  {
+    "name": "Lunar Outpost",
+    "cost": 1800,
+    "maintenance": 5,
+    "uniques": [
+      "[+10 Production]",
+      "[+5 Science]",
+      "[+25%] [Production] in this city"
+    ],
+    "requiredTech": "Lunar Base"
+  },
+  {
+    "name": "Bio-Dome",
+    "cost": 2000,
+    "maintenance": 4,
+    "uniques": [
+      "[+6 Food]",
+      "[+3 Happiness]",
+      "Carries over [45%] of Food after Growth"
+    ],
+    "requiredTech": "Lunar Agriculture"
+  },
+  {
+    "name": "Android Factory",
+    "cost": 2200,
+    "maintenance": 5,
+    "uniques": [
+      "[+12 Production]",
+      "[+33%] [Production] in this city"
+    ],
+    "requiredTech": "Android Robotics"
+  },
+  {
+    "name": "Nanite Network",
+    "cost": 2500,
+    "maintenance": 5,
+    "uniques": [
+      "[+10 Production]",
+      "[+10 Food]",
+      "[+20%] [Production] in this city"
+    ],
+    "requiredTech": "Nanoraiders"
+  },
+  {
+    "name": "Dark Matter Reactor",
+    "cost": 3000,
+    "maintenance": 6,
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+20 Production]",
+      "[+10 Science]",
+      "[+40%] [Production] in this city"
+    ],
+    "requiredTech": "Dark Matter"
+  },
+  {
+    "name": "Terraforming Station",
+    "cost": 3200,
+    "maintenance": 4,
+    "uniques": [
+      "[+10 Food]",
+      "[+5 Happiness]",
+      "Carries over [50%] of Food after Growth"
+    ],
+    "requiredTech": "Atmospheric Extractors"
+  },
+  {
+    "name": "Spaceship Factory",
+    "cost": 3500,
+    "maintenance": 6,
+    "uniques": [
+      "[+15 Science]",
+      "[+15 Production]",
+      "[+50%] production toward [Spaceship] parts"
+    ],
+    "requiredTech": "Mars Exploration"
+  },
+  {
+    "name": "Martian Colony",
+    "cost": 4000,
+    "maintenance": 6,
+    "uniques": [
+      "[+15 Food]",
+      "[+15 Production]",
+      "[+10 Gold]",
+      "[+25%] [Science] in this city"
+    ],
+    "requiredTech": "Mars Base"
+  },
+  {
+    "name": "Space Elevator",
+    "cost": 5000,
+    "isWorldWonder": true,
+    "uniques": [
+      "[+10 Production]",
+      "[+50%] production toward [Spaceship] parts in this city",
+      "[+2 Gold] from all [Mine] improvements"
+    ],
+    "requiredTech": "Space Elevator"
+  },
+  {
+    "name": "Nutrient Lounge",
+    "cost": 2500,
+    "maintenance": 4,
+    "uniques": [
+      "[+6 Food]",
+      "[+3 Happiness]"
+    ],
+    "requiredTech": "Flavor Synthesizers"
+  }
+
+]

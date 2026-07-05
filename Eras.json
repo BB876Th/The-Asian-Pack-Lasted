@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Neolithic Era",
+    "researchCostModifier": 1.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnits": ["Tribal Warrior"]
+  },
+  {
+    "name": "Bronze Age",
+    "researchCostModifier": 1.5,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnits": ["Tribal Warrior"]
+  },
+  {
+    "name": "Iron Age",
+    "researchCostModifier": 2.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnits": ["Swordsman"]
+  },
+  {
+    "name": "Classical Greek Era",
+    "researchCostModifier": 5.5,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnits": ["Hoplite"]
+  },
+  {
+    "name": "Classical Roman Era",
+    "researchCostModifier": 8.5,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnits": ["Legionary"]
+  },
+  {
+    "name": "Dark Ages",
+    "researchCostModifier": 12.5,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnits": ["Crusader"]
+  },
+  {
+    "name": "Crusade Era",
+    "researchCostModifier": 18.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnits": ["Templar Knight"]
+  },
+  {
+    "name": "Medieval Era",
+    "researchCostModifier": 27.5,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnits": ["Knight"]
+  },
+  {
+    "name": "Renaissance Era",
+    "researchCostModifier": 40.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Line Infantry"]
+  },
+  {
+    "name": "Industrial Revolution Era",
+    "researchCostModifier": 65.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Rifleman"]
+  },
+  {
+    "name": "World War I Era",
+    "researchCostModifier": 110.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Great War Infantry"]
+  },
+  {
+    "name": "The Great Depression Era",
+    "researchCostModifier": 150.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Infantry"]
+  },
+  {
+    "name": "World War II Era",
+    "researchCostModifier": 250.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Marine"]
+  },
+  {
+    "name": "Cold War Era",
+    "researchCostModifier": 420.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 3,
+    "startingMilitaryUnits": ["Cold War Infantry"]
+  },
+  {
+    "name": "Digital Age",
+    "researchCostModifier": 950.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 4,
+    "startingMilitaryUnits": ["Mechanized Infantry"]
+  },
+  {
+    "name": "Cyborg Age",
+    "researchCostModifier": 2500.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 4,
+    "startingMilitaryUnits": ["Cybernetic Soldier"]
+  },
+  {
+    "name": "Space Age",
+    "researchCostModifier": 6500.0,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 4,
+    "startingMilitaryUnits": ["Hover Tank"]
+  }
+]
